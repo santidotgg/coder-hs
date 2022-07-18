@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f1;
+}
+.mainTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+li, a{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 500;
+    font-size: 18px;
+    /* color: #edf0f1; */
+    color: black;
+    text-decoration: none;
+}
+.nav__links{
+    list-style: none;
+    text-align: center;
+    padding: .4%;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    /* color: #0088a9; */
+    color: #262b2c;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+footer{
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+.content{
+    /* color: white; */
+    color: black;
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    /* display: inline-block; */
+    margin: 30px 2% 0 2%;
+
+}
+
+.headline{
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+
+
+}
+.headline.hl1{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+
+}
+
+.headline.hl2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.headline.hl2:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.headline.hl2:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+}
+
+.headline.hl3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.headline.hl4{
+    font-weight: 700;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.headline.hl4:before{
+    border-top: 1px solid #656464;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.headline.hl4:after{
+    border-bottom: 1px solid #656464;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.itaPM{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 45%;
+    border-radius: 4px;
+}
+.itaPMVideo{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.imglinkedin{
+    height: 15px;
+}
+.subTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.normalText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95%;
+    font-weight: 450;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+.cont{
+    width: 200%;
+    height: 100%;
+}
+/* .sportSection{
+    background-image: url("./media/qatar.png");
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.4;
+} */
