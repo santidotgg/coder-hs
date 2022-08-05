@@ -14,18 +14,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
+    <!-- #### Animation #### -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" defer></script>
+
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="../style.css">
     <title>Daily Bugle - Entertainment</title>
   </head>
 <body>
+    <div class="fixed-top bkColor">
     <header class="mainTitle">
         <a href="../index.html"><h1 class="mainTitle">Daily Bugle</h1></a>
     </header>
-    <hr>
+    <hr class="noBottomMargin"
+    <!-- #### NAVIGATION BAR #### -->
         <nav>
-            <ul class="nav__links">
+            <ul class="nav__links animate__animated animate__flipInX">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./entertainment.html">Entertainment</a></li>
                 <li><a href="./finance.html">Finance</a></li>
@@ -35,18 +45,8 @@
                 <li><a href="./tech.html">Tech</a></li>
             </ul>
         </nav>
-        <hr>
-        <!-- <div class="content">
-            <div class="head">
-                <span class="headline hl3">The Boys: review</span><p><span class="headline hl4">by generic name</span></p>
-                    <img class="theBoysImg" src="https://www.wholesubtitles.com/wp-content/uploads/2022/01/The-Boys-SRT.jpg" alt="theBoys">    
-                    <div>
-                        <span class="subTitle">
-                            <p class="subTitleBoys">The first season of the American superhero television series The Boys, the first series in the franchise based on the comic book series of the same name written by Garth Ennis and Darick Robertson, was developed for television by American writer and television producer Eric Kripke.</p>
-                        </span>
-                        </div>
-                </div>
-        </div> -->
+        <hr class="noBottomMargin">
+    </div>
         <br>
         <!-- #### Main Article -->
         <div class="divContainer">
@@ -56,23 +56,23 @@
                 </span>
             </div>
             <div>
-                <img class="butcherImg giveMeColor" src="https://www.wholesubtitles.com/wp-content/uploads/2022/01/The-Boys-SRT.jpg" alt="theBoys"> 
+                <img class="butcherImg giveMeColor animate__animated animate__fadeInRight" src="https://www.wholesubtitles.com/wp-content/uploads/2022/01/The-Boys-SRT.jpg" alt="theBoys"> 
             </div>
         </div>
         <hr class="separator">
 
         <!-- #### More Articles #### -->
         <div class="containerColumns">
-            <div class="firstColumn"><h2 class="terminalList">
+            <div class="firstColumn"><h2 class="terminalList animate__animated animate__slideInLeft">
                 The Terminal List
             </h2>
         <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis animi quas totam magni exercitationem dolorem voluptas quo ex reprehenderit pariatur nam culpa in rem, libero explicabo nobis sed inventore.</p>
         </div>
-            <div class="secondColumn"><a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" target="_blank"><h2 class="someTitle link underline">spider-man to PC</h2></a>
+            <div class="secondColumn"><a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" target="_blank"><h2 class="someTitle animate__animated animate__slideInDown link underline">spider-man to PC</h2></a>
                 
         <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis animi quas totam magni exercitationem dolorem voluptas quo ex reprehenderit pariatur nam culpa in rem, libero explicabo nobis sed inventore.</p>
         </div>
-            <div class="thirdColumn"><h2 class="someOtherTitle">
+            <div class="thirdColumn"><h2 class="someOtherTitle animate__animated animate__slideInRight">
                 THE GRAY MAN
             </h2>
         <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis animi quas totam magni exercitationem dolorem voluptas quo ex reprehenderit pariatur nam culpa in rem, libero explicabo nobis sed inventore.</p>
@@ -88,7 +88,7 @@
                 Top Cafes To Visit
             </h2>
             <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis animi quas totam magni exercitationem dolorem voluptas quo ex reprehenderit pariatur nam culpa in rem, libero explicabo nobis sed inventore.</p>
-            <img class="blackNwhite cafe" src="https://media.giphy.com/media/pCJcExvbKdSeyyv8zP/giphy.gif" alt="coffee">
+            <img class="cafe blackNwhite giveMeColor" src="https://media.giphy.com/media/pCJcExvbKdSeyyv8zP/giphy.gif" alt="coffee">
         </div>
             <div class="secondColumn"><h2 class="heading bigTitle">
                 The Lord of the Rings: The Rings of Power

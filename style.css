@@ -14,7 +14,12 @@ body{
     line-height: 72px;
     margin-bottom: 20px;
 }
-
+.bkColor{
+    background-color: #f9f7f1;
+}
+.noBottomMargin{
+    margin: auto;
+}
 /* #### NAV #### */
 
 li, a{
@@ -43,10 +48,13 @@ li, a{
     font-weight: bolder;
     text-decoration: underline;
 }
-
+ul.nav__links.animate__animated.animate__flipInX{
+    margin-bottom: 0;
+}
 .head{
     text-align: center;
     position: relative;
+    margin-top: 10rem;
 }
 .content{
     /* color: white; */
@@ -70,7 +78,6 @@ li, a{
     font-size: 30px;
     text-transform: uppercase;
     padding: 10px 0 10px 0;
-
 }
 
 .headline.hl2{
@@ -129,8 +136,6 @@ li, a{
     margin: 0 auto;
 }
 .itaPM{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -141,6 +146,9 @@ li, a{
 .blackNwhite{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+.giveMeColor{
+    transition: 1.5s ease-in-out;
 }
 .giveMeColor:hover{
     -webkit-filter: grayscale(0%);
@@ -246,7 +254,8 @@ footer{
     text-align: center;
     margin-top: auto;
     position: relative;
-    padding: 10px 10px 0px 10px;
+    /* padding: 10px 10px 0px 10px; */
+    padding: 10px 0px 10px 0px;
     bottom: 0;
     width: 100%;
     height: 30px;
@@ -329,6 +338,12 @@ footer{
     margin-left: 15%;
     margin-right: 15%;
 }
+.coin{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+}
 .dogecoin{
     width: 70%;
     border-radius: 15px;
@@ -377,6 +392,11 @@ footer{
     font-size: 1.1rem;
     margin-left: 15%;
     margin-right: 15%;
+}
+.terminalList{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 2.5rem;
+    text-align: center;
 }
 .theBoysImg{
     -webkit-filter: grayscale(100%);
@@ -472,9 +492,18 @@ footer{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 8%;
     margin-bottom: 1%;
 }
+/* .divContainerE{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 1%;
+} */
 .textCont{
     width: 45%;
     margin-right:4%;
@@ -513,11 +542,7 @@ footer{
 .containerColumns.space{
     margin-top: 2%;
 }
-.terminalList{
-    font-family: 'Zilla Slab Highlight', cursive;
-    font-size: 2.5rem;
-    text-align: center;
-}
+
 .someTitle{
     font-family: 'Staatliches', cursive;
     font-size: 2.5rem;
@@ -570,6 +595,9 @@ h2.heading{
 /* #### SCREEN SIZE #### */
 
 @media screen and (max-width: 1024px){
+    .head{
+        margin-top: 14.5rem;
+    }
     .gridContainer{
         justify-content: center;
         /* align-items: center; */
@@ -613,6 +641,11 @@ h2.heading{
 
     .itaPM{
         width: 75%;
+    }
+    .divContainer{
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
     }
     /* #### del articulo en particular #### */
     .itaPMVideo{
@@ -718,7 +751,7 @@ h2.heading{
     }
     .paragraphB{
         font-family: 'Baskervville', serif;
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-align: center;
         margin: auto;
         margin-left: -33.33%;
@@ -734,17 +767,17 @@ h2.heading{
         border-radius: 8px;
     }
     /* #### FINANCE #### */
-    .divContainer{
+    /* .divContainer{
         display: flex;
         flex-direction: column;
-    }
+    } */
     p.paragraphB{
         font-family: 'Baskervville', serif;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         text-align: center;
         margin: auto;
-        margin-left: -33.33%;
-        margin-right: -33.33%;
+        /* margin-left: .01rem;
+        margin-right: .01rem; */
         padding-top: 1rem;
         padding-bottom: 1rem;
         padding-left: 0;
