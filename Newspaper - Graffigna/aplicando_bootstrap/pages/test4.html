@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>BOOTSTRAP</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Coffee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Drink</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Coffee</a></li>
+                  <li><a class="dropdown-item" href="#">Cafe</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Caffè</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- #### BUTTONS #### -->
+    <div class="containerButton">
+        <a href="./test1.html"><button type="button" class="btn btn-primary space buttonColor">Test 1</button></a>
+        <a href="./test2.html"><button type="button" class="btn btn-primary space buttonColor">Test 2</button></a>
+        <a href="./test3.html"><button type="button" class="btn btn-primary space buttonColor">Test 3</button></a>
+        <a href="./test4.html"><button type="button" class="btn btn-primary space buttonColor">Test 4</button></a>
+        <a href="./test5.html"><button type="button" class="btn btn-primary space buttonColor">Test 5</button></a>
+    </div>
+
+    <!-- #### Accordion #### -->
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item card-body">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            You Can Thank Goats for Coffee
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <p>Did you know goats were the reason why coffee was invented? According to legend, in the 9th century, Ethiopian farmers noticed the way their goats danced when they ate the Coffea plant. A local monk decided to give it a try and realized the drink kept him up at night and thus, coffee was born.</p>            </div>
+          </div>
+        </div>
+        <div class="accordion-item card-body">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                There Are Two Types of Coffee Beans
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <p>Most coffee lovers have brands and tastes they prefer, but many don’t realize there are differences in coffee beans. Arabica is the most grown coffee bean out there and is referred to as shade coffee. Robusta, while slightly more bitter, is considered sun-grown coffee.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item card-body">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Coffee Beans Aren’t Beans at All
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <p>While they may look like beans, it’s actually pits of berries you’re enjoying in your morning cup. They received the name coffee beans thanks to their resemblance to legumes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>

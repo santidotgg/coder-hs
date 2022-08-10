@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 1rem;
+    width: 18rem;
+}
+body{
+    background-color: #61481C;
+}
+.buttonColor{
+    background-color: #E6B325;
+    color: black;
+}
+.containerButton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin: 1rem;
+}
+.space{
+    margin: .5rem;
+}
+.card-body{
+    background-color: #A47E3B;
+}
+.color{
+    background-color: #BF9742;
+}
+.carousel{
+    width: 852px;
+    height: 480px;
+}
+.borderEnd{
+    border-radius: 50%;
+}
+.bigger{
+    font-size: 1.5rem;
+}
