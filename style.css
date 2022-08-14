@@ -254,7 +254,6 @@ footer{
     text-align: center;
     margin-top: auto;
     position: relative;
-    /* padding: 10px 10px 0px 10px; */
     padding: 10px 0px 10px 0px;
     bottom: 0;
     width: 100%;
@@ -269,6 +268,18 @@ footer{
     font-size: 1.8rem;
     transition: all 1s ease;
 }
+.madeBy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    width: 25% auto;
+    left: 10px;
+    border: 5px double #2f2f2f;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    }
 
 
 /* #### SPORT SECTION #### */
@@ -289,31 +300,14 @@ footer{
 /* #### INTERNATIONAL SECTION #### */
 
 .warMapRU{
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    display: block;
-    margin: auto; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* margin-top: 15px;
-    margin-bottom: 10px;
-    width: 50%;
-    height: 15% ;
-    border-radius: 15px; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* margin-top: 15px;
-    margin-bottom: 10px; */
     margin: auto;
     align-items: center;
     justify-content: center;
     width: 60%;
     border-radius: 15px;
-
-    
 }
 
 /* #### FINANCE SECTION #### */
@@ -447,7 +441,6 @@ footer{
 }
 
 /* #### TECH SECTION #### */
-
 .muskImg{
     display: block;
     margin-left: auto;
@@ -495,7 +488,7 @@ footer{
     margin-top: 8%;
     margin-bottom: 1%;
 }
-/* .divContainerE{
+.divContainerE{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -503,14 +496,17 @@ footer{
     margin: auto;
     margin-top: 8%;
     margin-bottom: 1%;
-} */
+}
 .textCont{
-    width: 45%;
+    width: 50%;
     margin-right:4%;
+}
+.textContInt{
+    width: 50%;
+    margin-right:0;
 }
 
 .paragraphB{
-    /* font-family: 'DM Serif Text', serif; */
     font-family: 'Baskervville', serif;
     font-size: 1.5rem;
     text-align: center;
@@ -520,7 +516,6 @@ footer{
     color: black;
     text-decoration: none;
 }
-
 .underline{
     text-decoration: underline;
 }
@@ -575,20 +570,7 @@ footer{
 h2.heading{
     margin-top: 0.4rem;
 }
-.madeBy{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10%;
-    width: 25% auto;
-    left: 10px;
-    border: 5px double #2f2f2f;
-    padding: 10px 15px 10px 15px;
-    line-height: 20px;
-    /* display: inline-block;
-    margin: 0 50px 20px -360px; */
-    }
+
 
 
 
@@ -597,6 +579,14 @@ h2.heading{
 @media screen and (max-width: 1024px){
     .head{
         margin-top: 14.5rem;
+    }
+    .divContainer{
+        margin-top: 15%;
+        justify-content:center;
+    }
+    .butcherImg{
+        margin-left: 10% auto;
+        width: 100%;
     }
     .gridContainer{
         justify-content: center;
@@ -633,19 +623,76 @@ h2.heading{
         color: black;
         text-decoration: none;
     }
+    /* #### ENTERTAINMENT #### */
+    .containerColumns{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerColumns.space{
+        margin-top: 2%;
+    }
+    .terminalList{
+        font-family: 'Zilla Slab Highlight', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .someTitle{
+        font-family: 'Staatliches', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .someOtherTitle{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .firstColumn{
+        border-right: 1px solid #656464;
+        border-left: 1px solid #656464;
+        margin-top: 1%;
+
+    }
+    .secondColumn{
+        border-right: 1px solid #656464;
+        border-left: 1px solid #656464;
+        margin-top: 1%;
+    }
+    .trailer{
+        margin: auto;
+        width: 65%;
+        border-radius: 8px;
+    }
+    .thirdColumn{
+        border-right: 1px solid #656464;
+        border-left: 1px solid #656464;
+        margin-top: 1%;
+    }
 }
 
 
 
 @media screen and (max-width: 512px){
-
+    .mainTitle{
+        font-size: 50px;
+    }
     .itaPM{
         width: 75%;
     }
+    a.headline.hl3.underline{
+        margin: auto;
+    }
     .divContainer{
-        margin-top: 40%;
-        display: flex;
-        flex-direction: column;
+        margin-top: 30%;
+        justify-content:center;
+    }
+    .textCont{
+        width: 88%;
+        margin: auto;
     }
     /* #### del articulo en particular #### */
     .itaPMVideo{
@@ -767,17 +814,11 @@ h2.heading{
         border-radius: 8px;
     }
     /* #### FINANCE #### */
-    /* .divContainer{
-        display: flex;
-        flex-direction: column;
-    } */
     p.paragraphB{
         font-family: 'Baskervville', serif;
         font-size: 1.1rem;
         text-align: center;
         margin: auto;
-        /* margin-left: .01rem;
-        margin-right: .01rem; */
         padding-top: 1rem;
         padding-bottom: 1rem;
         padding-left: 0;
@@ -785,6 +826,10 @@ h2.heading{
         line-height: 1.5;
         color: black;
         text-decoration: none;
+    }
+    p.paragraph{
+        padding-left: 2%;
+        padding-right: 2%;
     }
     /* #### Politics #### */
     a.headline.hl3{
@@ -799,8 +844,15 @@ h2.heading{
     }
     /* #### Tech #### */
     .muskImg{
-        margin: auto;
+        text-align: auto;
         width: 95%;
         border-radius: 8px;
+    }
+    .imgContainer{
+        text-align: center;
+    }
+    .divContainerE{
+        margin-top: 10rem;
+        margin: auto;
     }
 }
