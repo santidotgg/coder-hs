@@ -1,0 +1,5 @@
+SEO
+
+Modifiqué los <title> de cada HTML. Cada uno de estos se llama ‘Daily Bugle - ’ más la sección a la cual pertenece. Ej : ‘Daily Bugle - Home’
+Dentro de un tag <meta> agregué una breve descripción para informar sobre el sitio y lo que hace. Ej: Daily Bugle, New York's finest newspaper. Breaking news, live coverage, investigations, analysis, video, photos and more.
+Palabras Clave: news, newspaper, article, new york
